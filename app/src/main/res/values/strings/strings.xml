@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Toronto Restaurants</string>
+    <string name="title_activity_main">Toronto Restaurants</string>
+    <string name="title_activity_goodfellas">Map</string>
+    <string name="title_activity_goodfellas_regular">Map</string>
+    <string name="title_activity_goodfellas_sat">Map</string>
+    <string name="title_activity_stelvio_regular">Map</string>
+    <string name="title_activity_stelvio_sat">Map</string>
+    <string name="title_activity_donatello_regular">Map</string>
+    <string name="title_activity_donatello_sat">Map</string>
+    <string name="title_activity_estiaforio_regular">Map</string>
+    <string name="title_activity_estiaforio_sat">Map</string>
+    <string name="title_activity_pantheon_regular">Map</string>
+    <string name="title_activity_pantheon_sat">Map</string>
+    <string name="title_activity_mezes_regular">Map</string>
+    <string name="title_activity_mezes_sat">Map</string>
+    <string name="title_activity_mothers_dumpling_regular">Map</string>
+    <string name="title_activity_mothers_dumpling_sat">Map</string>
+    <string name="title_activity_dumpling_house_regular">Map</string>
+    <string name="title_activity_dumpling_house_sat">Map</string>
+    <string name="title_activity_laiwahheen_regular">Map</string>
+    <string name="title_activity_laiwahheen_sat">Map</string>
+    <string name="title_activity_alo_regular">Map</string>
+    <string name="title_activity_alo_sat">Map</string>
+    <string name="title_activity_scaramouche_regular">Map</string>
+    <string name="title_activity_scaramouche_sat">Map</string>
+    <string name="title_activity_george_regular">Map</string>
+    <string name="title_activity_george_sat">Map</string>
+    <string name="type_item_text">Type</string>
+    <string name="cat1">Italian</string>
+    <string name="cat2">Greek</string>
+    <string name="cat3">Chinese</string>
+    <string name="cat4">French</string>
+    <string name="Reg_map">Regular Map</string>
+    <string name="Sat_map">Satellite Map</string>
+    <string name="loc1">Goodfellas Wood Oven Pizza</string>
+    <string name="loc1_address">1 Old Mill Dr, Toronto, Ontario</string>
+    <string name="loc2">Stelvio</string>
+    <string name="loc2_address">791 Dundas St W, Toronto, Ontario</string>
+    <string name="loc3">Donatello Restaurant</string>
+    <string name="loc3_address">37 Elm St, Toronto, Ontario</string>
+
+    <string name="loc4">Estiatorio VOLOS</string>
+    <string name="loc4_address">456 Danforth Ave Logan and Danforth, Toronto, Ontario</string>
+    <string name="loc5">Pantheon Restaurant</string>
+    <string name="loc5_address">456 Danforth Ave Logan and Danforth, Toronto, Ontario</string>
+    <string name="loc6">Mezes</string>
+    <string name="loc6_address">456 Danforth Ave Logan and Danforth, Toronto, Ontario</string>
+
+    <string name="loc7">Mother\'s Dumplings</string>
+    <string name="loc7_address">421 Spadina Ave, Toronto, Ontario </string>
+    <string name="loc8">Dumpling House</string>
+    <string name="loc8_address">328 Spadina Ave, Toronto, Ontario </string>
+    <string name="loc9">Lai Wah Heen</string>
+    <string name="loc9_address">110 Chestnut St, Toronto, Ontario</string>
+
+    <string name="loc10">ALO RESTAURANT</string>
+    <string name="loc10_address">163 Spadina Ave 3rd Floor, Toronto, Ontario</string>
+    <string name="loc11">Scaramouche Restaurant</string>
+    <string name="loc11_address">1 Benvenuto Pl, Toronto, Ontario</string>
+    <string name="loc12">GEORGE Restaurant</string>
+    <string name="loc12_address">111 Queen St E, Toronto, Ontario</string>
+</resources>

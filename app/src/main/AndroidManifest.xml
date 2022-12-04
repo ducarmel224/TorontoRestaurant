@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.torontorestaurants">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.INTERNET " />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TL_main">
+        <activity android:name="com.example.torontorestaurants.French"></activity>
+        <activity android:name="com.example.torontorestaurants.Chinese" />
+        <activity android:name="com.example.torontorestaurants.Greek" />
+        <activity android:name="com.example.torontorestaurants.Italian" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.torontorestaurants.GeorgeSat"
+            android:label="@string/title_activity_george_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.GeorgeRegular"
+            android:label="@string/title_activity_george_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.ScaramoucheSat"
+            android:label="@string/title_activity_scaramouche_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.ScaramoucheRegular"
+            android:label="@string/title_activity_scaramouche_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.AloSat"
+            android:label="@string/title_activity_alo_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.AloRegular"
+            android:label="@string/title_activity_alo_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.LaiWahSat"
+            android:label="@string/title_activity_laiwahheen_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.LaiWahRegular"
+            android:label="@string/title_activity_laiwahheen_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.DumplingHouseSat"
+            android:label="@string/title_activity_dumpling_house_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.DumplingHouseRegular"
+            android:label="@string/title_activity_dumpling_house_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.MotherDumplingsSat"
+            android:label="@string/title_activity_mothers_dumpling_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.MotherDumplingsRegular"
+            android:label="@string/title_activity_mothers_dumpling_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.MezesSat"
+            android:label="@string/title_activity_mezes_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.MezesRegular"
+            android:label="@string/title_activity_mezes_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.PantheonSat"
+            android:label="@string/title_activity_pantheon_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.PantheonRegular"
+            android:label="@string/title_activity_pantheon_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.EstiatorioSat"
+            android:label="@string/title_activity_estiaforio_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.EstiatorioRegular"
+            android:label="@string/title_activity_estiaforio_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.DonatelloSat"
+            android:label="@string/title_activity_donatello_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.DonatelloRegular"
+            android:label="@string/title_activity_donatello_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.StelvioSat"
+            android:label="@string/title_activity_stelvio_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.StelvioRegular"
+            android:label="@string/title_activity_stelvio_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.GoodfellasSat"
+            android:label="@string/title_activity_goodfellas_sat" />
+        <activity
+            android:name="com.example.torontorestaurants.GoodfellasRegular"
+            android:label="@string/title_activity_goodfellas_regular" />
+        <activity
+            android:name="com.example.torontorestaurants.MainActivity"
+            android:label="@string/title_activity_main"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+
+
+
+
+

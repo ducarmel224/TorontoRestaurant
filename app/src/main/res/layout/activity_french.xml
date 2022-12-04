@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".French">
+
+    <TextView
+        android:id="@+id/cat_title"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/category_title_margin_left"
+        android:layout_marginTop="@dimen/category_title_margin_top"
+        android:text="@string/cat4"
+        android:textSize="@dimen/type_text_size"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location1"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/loc_title_margin_left"
+        android:layout_marginTop="@dimen/loc_title_margin_top"
+        android:text="@string/loc10"
+        android:textColor="#3F51B5"
+        android:textSize="@dimen/loc_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat_title" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:textSize="@dimen/loc_dec_text_size"
+        android:layout_marginStart="@dimen/loc_dec_margin_left"
+        android:layout_marginTop="@dimen/loc_dec_margin_top"
+        android:text="@string/loc10_address"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location1" />
+
+    <Button
+        android:id="@+id/reg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_reg_margin_left"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:onClick="Loc1_reg"
+        android:text="@string/Reg_map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc1" />
+
+    <Button
+        android:id="@+id/sat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_sat_margin_left"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:onClick="Loc1_sat"
+        android:text="@string/Sat_map"
+        app:layout_constraintStart_toEndOf="@+id/reg1"
+        app:layout_constraintTop_toBottomOf="@+id/desc1" />
+
+    <TextView
+        android:id="@+id/location2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/loc_title_margin_left"
+        android:layout_marginTop="@dimen/loc_title_margin_top"
+        android:text="@string/loc11"
+        android:textColor="#3F51B5"
+        android:textSize="@dimen/loc_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg1" />
+
+    <TextView
+        android:id="@+id/desc2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:textSize="@dimen/loc_dec_text_size"
+        android:layout_marginStart="@dimen/loc_dec_margin_left"
+        android:layout_marginTop="@dimen/loc_dec_margin_top"
+        android:text="@string/loc11_address"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location2" />
+
+    <Button
+        android:id="@+id/reg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_reg_margin_left"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:onClick="Loc2_reg"
+        android:text="@string/Reg_map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc2" />
+
+    <Button
+        android:id="@+id/sat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_sat_margin_left"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:onClick="Loc2_sat"
+        android:text="@string/Sat_map"
+        app:layout_constraintStart_toEndOf="@+id/reg2"
+        app:layout_constraintTop_toBottomOf="@+id/desc2" />
+
+    <TextView
+        android:id="@+id/location3"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/loc_title_margin_left"
+        android:layout_marginTop="@dimen/loc_title_margin_top"
+        android:text="@string/loc12"
+        android:textColor="#3F51B5"
+        android:textSize="@dimen/loc_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg2" />
+
+    <TextView
+        android:id="@+id/desc3"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:textSize="@dimen/loc_dec_text_size"
+        android:layout_marginStart="@dimen/loc_dec_margin_left"
+        android:layout_marginTop="@dimen/loc_dec_margin_top"
+        android:text="@string/loc12_address"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location3" />
+
+    <Button
+        android:id="@+id/reg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_reg_margin_left"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:onClick="Loc3_reg"
+        android:text="@string/Reg_map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc3" />
+
+    <Button
+        android:id="@+id/sat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_sat_margin_left"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:onClick="Loc3_sat"
+        android:text="@string/Sat_map"
+        app:layout_constraintStart_toEndOf="@+id/reg3"
+        app:layout_constraintTop_toBottomOf="@+id/desc3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
